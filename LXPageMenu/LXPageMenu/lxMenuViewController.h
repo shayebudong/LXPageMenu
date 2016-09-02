@@ -9,10 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface lxMenuViewController : UIViewController
-/**
- *  设置标题栏上按钮的文字
- */
--(NSMutableArray *)btnArray;
+
 
 /**
  *  添加字控制器
@@ -23,4 +20,9 @@
  *  设置标题栏按钮显示的个数
  */
 @property (nonatomic,assign) NSInteger titleRowNumber;
+
+/**
+ *  设置标题栏上按钮的文字
+ */
+-(NSMutableArray *)btnArray;
 @end

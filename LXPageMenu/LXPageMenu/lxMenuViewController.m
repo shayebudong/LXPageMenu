@@ -10,9 +10,9 @@
 #import "UIView+Extension.h"
 #import "lxTestViewController.h"
 
-#define titleDefaltHeight 35
 #define statusAndNavBarHeight 64
 #define tabbarHeight 49
+#define titleDefaltHeight 35
 #define btnsDefaultNumber 5
 @interface lxMenuViewController ()<UIScrollViewDelegate>
 @property (nonatomic,strong) NSMutableArray *btnArray;
