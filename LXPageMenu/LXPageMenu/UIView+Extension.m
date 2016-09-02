@@ -19,7 +19,7 @@
 
 - (CGFloat)x
 {
-    return self.frame.origin.x;
+   return self.frame.origin.x; 
 }
 
 - (void)setY:(CGFloat)y
