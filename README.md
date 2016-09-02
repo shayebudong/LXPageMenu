@@ -1,7 +1,7 @@
 # LXPageMenu
 一个菜单按钮视图，可以滑动，并可以点击视图上的按钮切换对应的控制器。注意：只需将lxMenupageController和UIview的Extension四个文件拖到项目即可，也可以按照自己喜欢或者需求修改 Menu上按钮的个数，按钮之间的间距，以及属性等等。
 
-![image](https://github.com/605345534@qq.com/shayebudong/LXPageMenu/blob/master/LXPageMenu/LXPageMenu/example.png)
+![image](https://github.com/shayebudong/LXPageMenu/blob/master/LXPageMenu/LXPageMenu/example.png)
 
 //创建菜单视图控制器
     lxMenuViewController *menu  = [[lxMenuViewController alloc]init];
