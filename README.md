@@ -32,4 +32,4 @@
     //添加到当前控制器
     [self.view addSubview:menu.view];
     [self addChildViewController:menu];
-    以上就可以实现基本效果，如果不符合要求，客官可以自行改之
+    以上就可以实现基本效果，如果不符合要求，客官可以自行改之。有什么问题可以直接邮箱（605345534@q q.com）联系我，期待您的提问。
