@@ -18,7 +18,6 @@
 		E57446C11D7961C6001536C0 /* lxTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57446C01D7961C6001536C0 /* lxTestViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E57446C41D7961CE001536C0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E57446C31D7961CE001536C0 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
 		E57446C71D7961FB001536C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57446C61D7961FB001536C0 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E57446CA1D796E8F001536C0 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = E57446C91D796E8F001536C0 /* example.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		E57446C31D7961CE001536C0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		E57446C51D7961FB001536C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E57446C61D7961FB001536C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E57446C91D796E8F001536C0 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 		E574467D1D79605B001536C0 = {
 			isa = PBXGroup;
 			children = (
-				E57446C81D796E7A001536C0 /* result */,
 				E57446881D79605B001536C0 /* LXPageMenu */,
 				E57446A21D79605B001536C0 /* LXPageMenuTests */,
 				E57446AD1D79605B001536C0 /* LXPageMenuUITests */,
@@ -156,14 +153,6 @@
 				E57446B01D79605B001536C0 /* Info.plist */,
 			);
 			path = LXPageMenuUITests;
-			sourceTree = "<group>";
-		};
-		E57446C81D796E7A001536C0 /* result */ = {
-			isa = PBXGroup;
-			children = (
-				E57446C91D796E8F001536C0 /* example.png */,
-			);
-			name = result;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +263,6 @@
 			files = (
 				E57446991D79605B001536C0 /* LaunchScreen.storyboard in Resources */,
 				E57446961D79605B001536C0 /* Assets.xcassets in Resources */,
-				E57446CA1D796E8F001536C0 /* example.png in Resources */,
 				E57446941D79605B001536C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
