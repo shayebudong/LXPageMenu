@@ -197,6 +197,7 @@
 
 -(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
+    //根据索引，确定控制器滚动多少
     NSInteger index = scrollView.contentOffset.x/scrollView.width;
     UIViewController *vc = self.childViewControllers[index];
     vc.view.x = scrollView.contentOffset.x;
